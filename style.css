@@ -11,16 +11,25 @@
 
 .flex_container{
     display:flex;
+    
 }
 
 header{
     flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .top{
     padding:32px;
     justify-content: space-between;
     align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding-left:32px;
+    padding-right: 32px;
 }
 
 .top_search{
@@ -64,15 +73,18 @@ header{
     width: 7em;
     height: 2em;
 }
+
 .banner{
     background-image: url('../assets/banner.jpg');
     background-repeat: no-repeat;
     flex-direction: column;
-    width: 1440px;
     height: 352px;
     align-items: left;
     padding-left:32px;
     padding-right: 32px;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .banner_title{
@@ -104,6 +116,26 @@ header{
     height: 2.6em;
 }
 
+.products {
+    padding: 32px;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.products_category{
+    flex-direction: column;
+}
+
+.category_title_container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_boxes_container {
+    flex-wrap: wrap;
+}
+
 .product_box{
     flex-direction: column;
 }
@@ -122,6 +154,20 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
+
+    .top{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top_login {
+        margin-top: 1em;
+    }
+
+    .top_search {
+        width: auto;
+    }
+
     .banner {
         width: auto;
         height: auto;
