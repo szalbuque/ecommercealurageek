@@ -1,0 +1,24 @@
+.flex_container{
+    display:flex;
+}
+.banner{
+    background-image: url('../assets/banner.jpg');
+    flex-direction: column;
+}
+
+.product_box{
+    flex-direction: column;
+}
+
+.bottom_contact{
+    flex-direction: column;
+}
+
+.form{
+    flex-direction: column;
+}
+
+footer{
+    flex-direction: column;
+    align-items: center;
+}

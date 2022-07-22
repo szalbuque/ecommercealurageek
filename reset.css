@@ -1,0 +1,16 @@
+:root {
+	--bg-color: #ebebeb;
+	--input-placeholder: #d4d4d4;
+	--input-bg: #efefef;
+	--text-highlight: #FFFF;
+	--blue-highlight: #2a7ae4;
+	--bg-contact: #eaf2fd;
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	background-color: var(--bg-color);
+	scroll-behavior: smooth;
+}
