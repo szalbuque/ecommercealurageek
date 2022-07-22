@@ -5,6 +5,8 @@
 	--text-highlight: #FFFF;
 	--blue-highlight: #2a7ae4;
 	--bg-contact: #eaf2fd;
+    --bg-search: #f5f5f5;
+
 }
 
 .flex_container{
@@ -15,6 +17,53 @@ header{
     flex-direction: column;
 }
 
+.top{
+    padding:32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_search{
+    width: 393px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-color:var(--bg-search);
+    border-radius: 20px;
+    background-color: var(--bg-search);
+    padding:1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_search_input{
+    border:none;
+    width: 80%;
+    height: 80%;
+    padding-left:1em;
+    background-color: var(--bg-search);
+}
+
+.top_search_button{
+    background-image: url('./assets/lupa.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border:none;
+    background-color:var(--bg-search);
+}
+
+.top_login{
+    border-color: var(--blue-highlight);
+    color: var(--blue-highlight);
+    background-color: var(--input-bg);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 7em;
+    height: 2em;
+}
 .banner{
     background-image: url('../assets/banner.jpg');
     background-repeat: no-repeat;
@@ -22,7 +71,8 @@ header{
     width: 1440px;
     height: 352px;
     align-items: left;
-    padding:32px;
+    padding-left:32px;
+    padding-right: 32px;
 }
 
 .banner_title{
@@ -30,6 +80,7 @@ header{
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
+    padding-top:10px;
 }
 
 .banner_subtitle{
@@ -69,3 +120,36 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+    .banner {
+        width: auto;
+        height: auto;
+    }
+
+    .banner_title{
+        width: auto;
+        height: auto;
+        font-size: 5vw;
+        line-height: 6vw;
+        padding-top:2vw;
+    }
+
+    .banner_subtitle{
+        width: auto;
+        height: auto;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .banner_button{
+        width: auto;
+        height: auto;
+        font-size: 5vw;
+        line-height: 6vw;
+        max-width: 10em;
+        max-height: 2.6em;
+        margin-bottom: 2em;
+    }
+    
+ }
