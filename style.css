@@ -9,6 +9,11 @@
 
 }
 
+body{
+    width: 100%;
+    margin:0 auto;
+}
+
 .flex_container{
     display:flex;
     
@@ -16,7 +21,7 @@
 
 header{
     flex-direction: column;
-    width: 90vw;
+    width: 100%;
     margin: 0 auto;
     max-width: 1400px;
 }
@@ -121,6 +126,7 @@ header{
     width: 90vw;
     margin: 0 auto;
     max-width: 1400px;
+    justify-content: center;
 }
 
 .products_category{
@@ -138,6 +144,10 @@ header{
 
 .product_box{
     flex-direction: column;
+}
+
+.bottom{
+    justify-content: center;
 }
 
 .bottom_contact{
@@ -158,6 +168,13 @@ footer{
     .top{
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .top :nth-child(1) { order: 1; }
+    .top :nth-child(2) { order: 3; }
+    .top :nth-child(3) {
+        order: 2;
+        margin-bottom:10px;
     }
 
     .top_login {
