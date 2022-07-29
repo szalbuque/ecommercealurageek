@@ -14,6 +14,11 @@ body{
     margin:0 auto;
 }
 
+p{
+    margin:0;
+    padding:0;
+}
+
 .flex_container{
     display:flex;
     
@@ -127,40 +132,117 @@ header{
     margin: 0 auto;
     max-width: 1400px;
     justify-content: center;
+    flex-direction: column;
+}
+
+.category_seeall{
+    display:flex;
+    text-decoration: none;
+    color:var(--blue-highlight);
+    font-weight: bold;
+    align-items: center;
 }
 
 .products_category{
     flex-direction: column;
+    margin-top:1em;
+    margin-bottom: 1em;
 }
 
-.category_title_container{
-    align-items: center;
+.category_title_container {
     justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.category_title{
+    flex-grow: 1;
 }
 
 .products_boxes_container {
     flex-wrap: wrap;
+    padding-right: 4em;
+    padding-left: 4em;
+    justify-content: space-around;
 }
 
 .product_box{
     flex-direction: column;
 }
 
-.bottom{
-    justify-content: center;
+.product_link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:0.5em;
+}
+
+.product_title{
+    margin: 0 0 0 0.5em;
+    display: flex;
+    padding:0;
+}
+
+.product_price {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left:0.5em;
+}
+
+.bottom {
+    justify-content: space-between;
+    padding-left: 9em;
+    padding-right: 10em;
+    background-color: var(--bg-contact);
+    min-height: 17em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.bottom_links ul{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type:none;
+    line-height: 2em;
+    justify-content: space-between;
 }
 
 .bottom_contact{
     flex-direction: column;
 }
 
-.form{
+.form {
     flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    min-height: 11em;
+}
+
+.form_name{
+    height: 3em;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+}
+
+.form_message{
+    border-radius: 5px;
+}
+
+.button_sendMsg{
+    background-color: var(--blue-highlight);
+    color:var(--bg-color);
+    border:none;
+    width: fit-content;
+    padding:1em;
+    margin-top:0.5em;
+    border-radius: 5px;
 }
 
 footer{
     flex-direction: column;
     align-items: center;
+    padding:2em;
 }
 
 @media screen and (max-width: 480px) {
@@ -214,5 +296,10 @@ footer{
         max-height: 2.6em;
         margin-bottom: 2em;
     }
-    
+  
+    .bottom{
+        flex-direction: column;
+        margin:0;
+        padding:2em;
+    }
  }
