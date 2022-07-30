@@ -286,6 +286,27 @@ footer{
     margin-bottom: 2em;
 }
 
+/* Página de adicionar produto */
+.allproducts_title_line{
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.allproducts_title_line div {
+    font-size: 2em;
+}
+
+.add_product_button{
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: var(--blue-highlight);
+    color:var(--bg-color);
+    padding: 1em;
+}
+
 @media screen and (max-width: 480px) {
 
     .top{
