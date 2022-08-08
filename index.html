@@ -25,7 +25,7 @@
         <section class="banner flex_container">
             <h1 class="banner_title">Julho promocional!</h1>
             <h2 class="banner_subtitle">Produtos selecionados com até 20% de desconto!</h2>
-            <button class="banner_button flex_container">Ver as promoções</button>
+            <button class="banner_button flex_container"><a href="#consoles">Ver as promoções</a></button>
         </section>
     </header>
 
@@ -33,7 +33,7 @@
         <section class="products flex_container">
             <section class="products_category flex_container">
                 <section class="category_title_container flex_container">
-                    <h2 class="category_title">Star Wars</h2>
+                    <h2 class="category_title" id="starwars">Star Wars</h2>
                     <a href="#" class="category_seeall">Ver tudo  <img src="./assets/icone-seta.png" alt="seta" class="seta"></a>
                 </section>
                 <section class="products_boxes_container flex_container">
@@ -77,7 +77,7 @@
             </section>
             <section class="products_category flex_container">
                 <section class="category_title_container flex_container">
-                    <h2 class="category_title">Consoles</h2>
+                    <h2 class="category_title" id="consoles">Consoles</h2>
                     <a href="#" class="category_seeall">Ver tudo  <img src="./assets/icone-seta.png" alt="seta" class="seta"></a>
                 </section>
                 <section class="products_boxes_container flex_container">
@@ -121,7 +121,7 @@
             </section>
             <section class="products_category flex_container">
                 <section class="category_title_container flex_container">
-                    <h2 class="category_title">Diversos</h2>
+                    <h2 class="category_title" id="diversos">Diversos</h2>
                     <a href="#" class="category_seeall">Ver tudo  <img src="./assets/icone-seta.png" alt="seta" class="seta"></a>
                 </section>
                 <section class="products_boxes_container flex_container">
@@ -181,8 +181,10 @@
             <div class="bottom_contact flex_container">
                 <h3 class="bottom_contact_title">Fale conosco</h3>
                 <form class="form flex_container">
-                    <input type="text" name="name" class="form_name" placeholder="Nome">
-                    <textarea name="message" class="form_message" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                    <input type="text" name="name" class="form_name" placeholder="Nome" maxlength="40" required>
+                    <span class="input-mensagem-erro">Este campo não está válido.</span>
+                    <textarea name="message" class="form_message" cols="30" rows="5" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <span class="input-mensagem-erro">Este campo não está válido.</span>
                     <input type="submit" class="button_sendMsg" value="Enviar Mensagem">
                 </form>   
             </div>

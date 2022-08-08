@@ -132,6 +132,11 @@ header{
     height: 2.6em;
 }
 
+.banner_button a{
+    text-decoration: none;
+    color: var(--text-highlight)
+}
+
 .products {
     padding: 32px;
     width: 90vw;
@@ -227,12 +232,18 @@ header{
 
 .form_name{
     height: 3em;
-    margin-bottom: 0.5em;
     border-radius: 5px;
 }
 
 .form_message{
     border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.input-mensagem-erro{
+    font-size:0.8em;
+    color:red;
+    display:none;
 }
 
 .button_sendMsg{
