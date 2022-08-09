@@ -35,40 +35,19 @@
                         Procure no seu computador
                     </div>
                 </div>
-                <input type="text" name="new_product_name" class="new_product_field" placeholder="Nome do produto">
-                <input type="text" name="new_product_price" class="new_product_field" placeholder="Preço do produto">
-                <input type="text" name="new_product_description" class="new_product_description" placeholder="Descrição do produto">
+                <input type="text" name="new_product_name" class="new_product_field" placeholder="Nome do produto" data-tipo="nome" maxlength="40" required>
+                <span class="input-mensagem-erro">Este campo não está válido</span>
+                <input type="text" name="new_product_price" class="new_product_field" placeholder="Preço do produto" data-tipo="preco" required>
+                <span class="input-mensagem-erro">Este campo não está válido</span>
+                <input type="text" name="new_product_description" class="new_product_description" maxlength="150" data-tipo="descricao" placeholder="Descrição do produto" required>
+                <span class="input-mensagem-erro">Este campo não está válido</span>
                 <input type="submit" class="new_product_button" value="Adicionar produto">
             </form>
         </section>
-        <section class="bottom flex_container">
-            <div class="bottom_logo">
-                <img src="./assets/logo.png" alt="logotipo alura geek">
-            </div>
-            <div class="bottom_links flex_container">
-                <ul>
-                    <li>Quem somos nós</li>
-                    <li>Política de privacidade</li>
-                    <li>Programa de fidelidade</li>
-                    <li>Nossas lojas</li>
-                    <li>Quero ser franqueado</li>
-                    <li>Anuncie aqui</li>
-                </ul>
-            </div>
-            <div class="bottom_contact flex_container">
-                <h3 class="bottom_contact_title">Fale conosco</h3>
-                <form class="form flex_container">
-                    <input type="text" name="name" class="form_name" placeholder="Nome">
-                    <textarea name="message" class="form_message" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
-                    <input type="submit" class="button_sendMsg" value="Enviar Mensagem">
-                </form>   
-            </div>
-        </section>
+        
     </main>
    
-    <footer class="flex_container">
-        <p>Desenvolvido por: Silvia Zveiter de Albuquerque Rocha</p>
-        <p>julho/2022</p>
-    </footer>    
+    <script type="module" src="./js/app.js"></script>   
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
 </body>
 </html>

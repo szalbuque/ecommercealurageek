@@ -181,9 +181,9 @@
             <div class="bottom_contact flex_container">
                 <h3 class="bottom_contact_title">Fale conosco</h3>
                 <form class="form flex_container">
-                    <input type="text" name="name" class="form_name" placeholder="Nome" maxlength="40" required>
+                    <input type="text" name="name" class="form_name" placeholder="Nome" maxlength="40" data-tipo="nome" required>
                     <span class="input-mensagem-erro">Este campo não está válido.</span>
-                    <textarea name="message" class="form_message" cols="30" rows="5" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <textarea name="message" class="form_message" data-tipo="mensagem" cols="30" rows="5" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
                     <span class="input-mensagem-erro">Este campo não está válido.</span>
                     <input type="submit" class="button_sendMsg" value="Enviar Mensagem">
                 </form>   
@@ -195,6 +195,6 @@
         <p>Desenvolvido por: Silvia Zveiter de Albuquerque Rocha</p>
         <p>julho/2022</p>
     </footer>    
-    <script src="./js/app.js"></script>
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>

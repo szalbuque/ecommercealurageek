@@ -297,6 +297,11 @@ footer{
     margin-bottom: 2em;
 }
 
+.login_button a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Página de todos os produtos */
 .allproducts_title_line{
     font-weight: bold;
