@@ -1,12 +1,20 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description":"alura geek",
+  "description": "alura geek",
   "main": "index.js",
-  "scripts":{
-    "server":"json-server --watch db.json"
+  "scripts": {
+    "server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "Silvia Rocha",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szalbuque/ecommercealurageek.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szalbuque/ecommercealurageek/issues"
+  },
+  "homepage": "https://github.com/szalbuque/ecommercealurageek#readme"
 }
