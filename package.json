@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description":"alura geek",
+  "main": "index.js",
+  "scripts":{
+    "server":"json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "Silvia Rocha",
+  "license": "ISC"
+}
