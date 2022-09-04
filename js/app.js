@@ -1,6 +1,7 @@
 import { valida } from './validacao.js'
-
+console.log('script app.js')
 const inputs = document.querySelectorAll('input')
+console.log(inputs)
 
 inputs.forEach(input => {
     if(input.dataset.tipo === 'preco') {

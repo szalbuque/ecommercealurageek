@@ -24,39 +24,16 @@
                 Iniciar Sessão
             </div>
             <form class="login_form flex_container">
-                <input type="email" name="login_email" class="login_field" placeholder="Digite seu e-mail">
-                <input type="password" name="login_pwd" class="login_field" placeholder="Digite sua senha">
-                <input type="submit" class="login_button" value="Entrar">
+                <input type="email" name="login_email" class="login_field" data-tipo="email" placeholder="Digite seu e-mail" required>
+                <span class="input-mensagem-erro">Este campo não está válido</span>
+                <input type="password" name="login_pwd" class="login_field" data-tipo="senha" placeholder="Digite sua senha" required>
+                <span class="input-mensagem-erro">Este campo não está válido</span>
+                <button class="login_button"><a href="./admin.html">Entrar</a></button>
             </form>
-        </section>
-        <section class="bottom flex_container">
-            <div class="bottom_logo">
-                <img src="./assets/logo.png" alt="logotipo alura geek">
-            </div>
-            <div class="bottom_links flex_container">
-                <ul>
-                    <li>Quem somos nós</li>
-                    <li>Política de privacidade</li>
-                    <li>Programa de fidelidade</li>
-                    <li>Nossas lojas</li>
-                    <li>Quero ser franqueado</li>
-                    <li>Anuncie aqui</li>
-                </ul>
-            </div>
-            <div class="bottom_contact flex_container">
-                <h3 class="bottom_contact_title">Fale conosco</h3>
-                <form class="form flex_container">
-                    <input type="text" name="name" class="form_name" placeholder="Nome">
-                    <textarea name="message" class="form_message" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
-                    <input type="submit" class="button_sendMsg" value="Enviar Mensagem">
-                </form>   
-            </div>
         </section>
     </main>
    
-    <footer class="flex_container">
-        <p>Desenvolvido por: Silvia Zveiter de Albuquerque Rocha</p>
-        <p>julho/2022</p>
-    </footer>    
+      
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>

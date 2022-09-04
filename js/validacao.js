@@ -25,6 +25,12 @@ const mensagensDeErro = {
     nome: {
         valueMissing: 'O campo de nome não pode estar vazio.'
     },
+    mensagem: {
+        valueMissing: 'O campo de mensagem não pode estar vazio.'
+    },
+    descricao: {
+        valueMissing: 'O campo de descrição não pode estar vazio.'
+    },
     email: {
         valueMissing: 'O campo de email não pode estar vazio.',
         typeMismatch: 'O email digitado não é válido.'
