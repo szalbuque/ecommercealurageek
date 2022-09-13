@@ -1,7 +1,7 @@
 {
     "product": [
       {
-        "imageUrl": "./assets/Skill1.png",
+        "imageUrl": "./assets/skill1.png",
         "name": "Copo Stormtrooper",
         "price": "60,00",
         "section": "Star Wars",
@@ -17,7 +17,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill3.png",
+        "imageUrl": "./assets/skill3.png",
         "name": "Boneco Yoda",
         "price": "60,00",
         "section": "Star Wars",
@@ -25,7 +25,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill4.png",
+        "imageUrl": "./assets/skill4.png",
         "name": "Boneco Stormtrooper",
         "price": "60,00",
         "section": "Star Wars",
@@ -33,7 +33,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill5.png",
+        "imageUrl": "./assets/skill5.png",
         "name": "Boneco Baby Yoda",
         "price": "60,00",
         "section": "Star Wars",
@@ -41,7 +41,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill6.png",
+        "imageUrl": "./assets/skill6.png",
         "name": "Boneco Kylo Ren",
         "price": "60,00",
         "section": "Star Wars",
@@ -49,7 +49,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill7.png",
+        "imageUrl": "./assets/skill7.png",
         "name": "Controle Xbox One S",
         "price": "60,00",
         "section": "Consoles",
@@ -57,7 +57,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill8.png",
+        "imageUrl": "./assets/skill8.png",
         "name": "Playstation 5",
         "price": "60,00",
         "section": "Consoles",
@@ -65,7 +65,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill9.png",
+        "imageUrl": "./assets/skill9.jpg",
         "name": "Super Nintendo Clássico",
         "price": "60,00",
         "section": "Consoles",
@@ -73,7 +73,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill10.png",
+        "imageUrl": "./assets/skill10.jpg",
         "name": "Nintendo Switch",
         "price": "60,00",
         "section": "Consoles",
@@ -81,7 +81,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill11.png",
+        "imageUrl": "./assets/skill11.jpg",
         "name": "Xbox One X",
         "price": "60,00",
         "section": "Consoles",
@@ -89,7 +89,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill12.png",
+        "imageUrl": "./assets/skill12.png",
         "name": "Nintendo Portátil",
         "price": "60,00",
         "section": "Consoles",
@@ -97,7 +97,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill13.png",
+        "imageUrl": "./assets/skill13.png",
         "name": "Camisa Atari",
         "price": "60,00",
         "section": "Diversos",
@@ -105,7 +105,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill14.png",
+        "imageUrl": "./assets/skill14.jpg",
         "name": "Camisa SNES",
         "price": "60,00",
         "section": "Diversos",
@@ -113,7 +113,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill15.png",
+        "imageUrl": "./assets/skill15.jpg",
         "name": "Action Figure Sonic",
         "price": "60,00",
         "section": "Diversos",
@@ -121,7 +121,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill16.png",
+        "imageUrl": "./assets/skill16.jpg",
         "name": "Rádio/Alarme Rosa",
         "price": "60,00",
         "section": "Diversos",
@@ -129,7 +129,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "imageUrl": "./assets/Skill18.png",
+        "imageUrl": "./assets/skill18.png",
         "name": "Óculos Rift VR",
         "price": "60,00",
         "section": "Diversos",
