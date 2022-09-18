@@ -10,5 +10,5 @@ Em desenvolvimento<br>
 --- Utilizando o VSCode, você deve acessar o terminal e executar o seguinte comando:<br>
 > json-server --watch db.json<br>
 <br>
-![](https://github.com/szalbuque/ecommercealurageek/blob/dcd15be07bdb7cfc8c405655e5afe232b51eb5f9/assets/ecommerce.gif)
+![(https://github.com/szalbuque/ecommercealurageek/blob/dcd15be07bdb7cfc8c405655e5afe232b51eb5f9/assets/ecommerce.gif)]
 
