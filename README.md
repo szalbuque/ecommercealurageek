@@ -8,4 +8,6 @@ Em desenvolvimento<br>
 --- Você pode testar usando uma IDE, por exemplo o VSCode, usando um plugin como o Live Server.<br>
 -- Também será necessário simular uma API de dados.<br>
 --- Utilizando o VSCode, você deve acessar o terminal e executar o seguinte comando:<br>
-> json-server --watch db.json
+> json-server --watch db.json<br>
+<br>
+
