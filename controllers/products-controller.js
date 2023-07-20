@@ -1,5 +1,6 @@
 import {productServices} from "../services/product-services.js"
 
+// Monta uma div em HTML, da classe product_box, contendo o nome, o preço e a imagem do produto passados como parâmetro
 const newProduct = (name, price, imageUrl) => {
     const card = document.createElement("div")
     const card_content = `
@@ -14,6 +15,7 @@ const newProduct = (name, price, imageUrl) => {
     return card
 }
 
+// Renderiza os itens buscados no banco de dados dentro da página HTML onde está o marcador data-product
 const products = document.querySelector("[data-product]")
 const render = async() => {
     try{
