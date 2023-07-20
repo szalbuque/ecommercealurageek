@@ -11,5 +11,5 @@ Em desenvolvimento<br>
 > json-server --watch db.json<br>
 <br>
 <p align="center">
-  <img  src="https://github.com/szalbuque/ecommercealurageek/blob/dcd15be07bdb7cfc8c405655e5afe232b51eb5f9/assets/ecommerce.gif"
+  <img  src="/assets/alurageek.gif"
 </p>
