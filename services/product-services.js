@@ -8,3 +8,4 @@ fetch("http://localhost:3000/product")
 export const productServices = {
     listaProdutos,
 }
+
