@@ -219,6 +219,16 @@ header{
     justify-content: space-between;
 }
 
+.menu_admin {
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type:none;
+    line-height: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .bottom_contact{
     flex-direction: column;
 }
