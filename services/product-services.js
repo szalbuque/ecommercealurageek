@@ -35,7 +35,7 @@ export async function addItem(item) {
   };
 
   try {
-    const data = await fetchJSON('/items', options);
+    const data = await fetchJSON('/', options);
     return data;
   } catch (error) {
     console.error('Erro ao adicionar item via API:', error);

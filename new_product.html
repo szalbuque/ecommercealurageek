@@ -23,7 +23,7 @@
             <div class="new_product_title">
                 Adicionar novo produto
             </div>
-            <form class="new_product_form flex_container">
+            <form class="new_product_form flex_container" id="addItemForm">
                 <div class="new_product_foto_container flex_container">
                     <div class="new_product_img_drag flex_container">
                         <a href="#" class="np_img_drag_link flex_container">
@@ -35,20 +35,17 @@
                         Procure no seu computador
                     </div>
                 </div>
-                <input type="text" name="new_product_name" class="new_product_field" placeholder="Nome do produto" data-tipo="nome" maxlength="40" required>
-                <span class="input-mensagem-erro">Este campo não está válido</span>
-                <input type="text" name="new_product_price" class="new_product_field" placeholder="Preço do produto" data-tipo="preco" required>
-                <span class="input-mensagem-erro">Este campo não está válido</span>
-                <input type="text" name="new_product_description" class="new_product_description" maxlength="150" data-tipo="descricao" placeholder="Descrição do produto" required>
-                <span class="input-mensagem-erro">Este campo não está válido</span>
+                <input type="text" name="imageUrl" id="imageUrl" class="new_product_field" placeholder="Endereço da imagem no computador"  maxlength = "50" required>
+                <input type="text" name="name" id="name" class="new_product_field" placeholder="Nome do produto"  maxlength="40" required>
+                <input type="text" name="price" id="price" class="new_product_field" placeholder="Preço do produto"  required>
+                <input type="text" name="description" id="description" class="new_product_description" maxlength="150"  placeholder="Descrição do produto" required>
                 <input type="submit" class="new_product_button" value="Adicionar produto">
             </form>
         </section>
         
     </main>
-   
-    <script type="module" src="./js/app.js"></script>  
-    <script type="module" src="./services/product-services.js" 
-    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+
+    <script type="module" src="./controllers/new-product-controller.js"></script>
+
 </body>
 </html>

@@ -1,141 +1,147 @@
 {
-    "product": [
-      {
-        "imageUrl": "./assets/skill1.png",
-        "name": "Copo Stormtrooper",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "1",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill2.png",
-        "name": "Lego Darth Vader",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "2",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill3.png",
-        "name": "Boneco Yoda",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "3",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill4.png",
-        "name": "Boneco Stormtrooper",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "4",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill5.png",
-        "name": "Boneco Baby Yoda",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "5",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill6.png",
-        "name": "Boneco Kylo Ren",
-        "price": "60,00",
-        "section": "Star Wars",
-        "id": "6",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill7.png",
-        "name": "Controle Xbox One S",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "7",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill8.png",
-        "name": "Playstation 5",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "8",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill9.jpg",
-        "name": "Super Nintendo Clássico",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "9",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill10.jpg",
-        "name": "Nintendo Switch",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "10",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill11.jpg",
-        "name": "Xbox One X",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "11",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill12.png",
-        "name": "Nintendo Portátil",
-        "price": "60,00",
-        "section": "Consoles",
-        "id": "12",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill13.png",
-        "name": "Camisa Atari",
-        "price": "60,00",
-        "section": "Diversos",
-        "id": "13",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill14.jpg",
-        "name": "Camisa SNES",
-        "price": "60,00",
-        "section": "Diversos",
-        "id": "14",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill15.jpg",
-        "name": "Action Figure Sonic",
-        "price": "60,00",
-        "section": "Diversos",
-        "id": "15",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill16.jpg",
-        "name": "Rádio/Alarme Rosa",
-        "price": "60,00",
-        "section": "Diversos",
-        "id": "16",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
-      {
-        "imageUrl": "./assets/skill18.png",
-        "name": "Óculos Rift VR",
-        "price": "60,00",
-        "section": "Diversos",
-        "id": "17",
-        "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      }
-     
-    ]
-  }
+  "product": [
+    {
+      "imageUrl": "./assets/skill1.png",
+      "name": "Copo Stormtrooper",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "1",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill2.png",
+      "name": "Lego Darth Vader",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "2",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill3.png",
+      "name": "Boneco Yoda",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "3",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill4.png",
+      "name": "Boneco Stormtrooper",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "4",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill5.png",
+      "name": "Boneco Baby Yoda",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "5",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill6.png",
+      "name": "Boneco Kylo Ren",
+      "price": "60,00",
+      "section": "Star Wars",
+      "id": "6",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill7.png",
+      "name": "Controle Xbox One S",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "7",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill8.png",
+      "name": "Playstation 5",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "8",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill9.jpg",
+      "name": "Super Nintendo Clássico",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "9",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill10.jpg",
+      "name": "Nintendo Switch",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "10",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill11.jpg",
+      "name": "Xbox One X",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "11",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill12.png",
+      "name": "Nintendo Portátil",
+      "price": "60,00",
+      "section": "Consoles",
+      "id": "12",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill13.png",
+      "name": "Camisa Atari",
+      "price": "60,00",
+      "section": "Diversos",
+      "id": "13",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill14.jpg",
+      "name": "Camisa SNES",
+      "price": "60,00",
+      "section": "Diversos",
+      "id": "14",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill15.jpg",
+      "name": "Action Figure Sonic",
+      "price": "60,00",
+      "section": "Diversos",
+      "id": "15",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill16.jpg",
+      "name": "Rádio/Alarme Rosa",
+      "price": "60,00",
+      "section": "Diversos",
+      "id": "16",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill18.png",
+      "name": "Óculos Rift VR",
+      "price": "60,00",
+      "section": "Diversos",
+      "id": "17",
+      "description": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "imageUrl": "./assets/skill18.png",
+      "name": "Produto novo",
+      "price": "99",
+      "id": "lkbkcu7cptrtm",
+      "description": "Produto de teste"
+    }
+  ]
+}

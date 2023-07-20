@@ -19,3 +19,13 @@
 <p>O padrão de projeto mais adequado para fazer chamadas a uma API de dados usando JavaScript é o padrão "Módulo de Serviço" (ou "Service Module" em inglês). Esse padrão de projeto ajuda a organizar e separar a lógica de acesso à API, tornando o código mais modular, reutilizável e fácil de manter.</p>
 
 <p>O "Módulo de Serviço" é uma forma de encapsular toda a lógica relacionada à comunicação com a API dentro de um módulo ou objeto. Isso permite que você isole a complexidade das chamadas HTTP, lógica de tratamento de erros e qualquer transformação de dados necessária. Além disso, ele também possibilita a injeção de dependências, o que torna o código mais testável.</p>
+
+<p>Neste projeto um simulador de API e o banco de dados é representado pelo arquivo db.json.</p>
+
+<p>Há dois serviços no arquivo services/product-services.js :</p>
+
+* getItems: retorna todos os itens contidos no banco de dados;
+* addItem: adiciona um item ao banco de dados.
+
+<p>A página index.html usa o serviço <i>getItems</i> através do controller <i>products-controller.js .</i></p>
+<p>A página new_product.html usa o serviço <i>addItem</i> através do controller <i>new-product-controller.js</i>.</p>
