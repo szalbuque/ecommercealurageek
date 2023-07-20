@@ -19,7 +19,7 @@ const newProduct = (name, price, imageUrl) => {
 const products = document.querySelector("[data-product]")
 const render = async() => {
     try{
-        const productsList = await productServices.listaProdutos()
+        const productsList = await productServices.getItems()
         productsList.forEach(element => {
             products.appendChild(newProduct(element.name, element.price, element.imageUrl))
         })
